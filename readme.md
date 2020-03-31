@@ -17,7 +17,7 @@ Create a `Gladiator` class that has the following properties...
 Once defined, you should be able to do the following...
 
 ```js
-var max = new Gladiator("Maximus", "Trident");
+const max = new Gladiator("Maximus", "Trident");
 console.log(max.name); // "Maximus"
 console.log(max.weapon); // "Trident"
 ```
@@ -37,29 +37,29 @@ Create an `Arena` class that meets the following criteria...
 ### An arena has a name
 
 ```js
-var colosseum = new Arena("Colosseum");
+const colosseum = new Arena("Colosseum");
 console.log(colosseum.name); // => Colosseum
 ```
 
 ### The name should be capitalized
 
 ```js
-var megalopolis = new Arena("megalopolis");
+const megalopolis = new Arena("megalopolis");
 console.log(megalopolis.name); // => Megalopolis
 ```
 
 ### An arena can have gladiators
 
 ```js
-var colosseum = new Arena("Colosseum");
+const colosseum = new Arena("Colosseum");
 console.log(colosseum.gladiators); // => []
 ```
 
 ### You can add a gladiator to the arena
 
 ```js
-var max = new Gladiator("Maximus", "Trident");
-var colosseum = new Arena("Colosseum");
+const max = new Gladiator("Maximus", "Trident");
+const colosseum = new Arena("Colosseum");
 colosseum.addGladiator(max);
 console.log(colosseum.gladiators); // => [Gladiator]
 ```
@@ -67,10 +67,10 @@ console.log(colosseum.gladiators); // => [Gladiator]
 ### The arena should never have more than 2 gladiators in it at a time
 
 ```js
-var max = new Gladiator("Maximus", "Trident");
-var titus = new Gladiator("Titus", "Sword");
-var andronicus = new Gladiator("Andronicus", "Sword");
-var colosseum = new Arena("Colosseum");
+const max = new Gladiator("Maximus", "Trident");
+const titus = new Gladiator("Titus", "Sword");
+const andronicus = new Gladiator("Andronicus", "Sword");
+const colosseum = new Arena("Colosseum");
 colosseum.addGladiator(max);
 colosseum.addGladiator(titus);
 colosseum.addGladiator(andronicus);
@@ -87,9 +87,9 @@ Winning conditions
 - If the two gladiators have the same weapon, they are both eliminated.
 
 ```js
-var max = new Gladiator("Maximus", "Trident");
-var titus = new Gladiator("Titus", "Spear");
-var colosseum = new Arena("Colosseum");
+const max = new Gladiator("Maximus", "Trident");
+const titus = new Gladiator("Titus", "Spear");
+const colosseum = new Arena("Colosseum");
 colosseum.addGladiator(max);
 colosseum.addGladiator(titus);
 colosseum.fight();
