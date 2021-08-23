@@ -1,11 +1,33 @@
-# JS Gladiator Arena
+# JS Gladiator Arena Homework
 
 The Emperor has commissioned you to build a Gladiator Arena. You will do so
 using your knowledge of object-oriented Javascript and ES6 classes.
 
-All of your Javascript code will be written in `gladiator.js` and `arena.js`.
-You can test your code by opening `index.html` in the browser and interacting
-with the console.
+All of your Javascript code will be written in `lib/gladiator.js` and
+`lib/arena.js`. You can test your code by opening `index.html` in the browser
+and interacting with the console.
+
+## Tests
+
+Run `npm install` in this directory to download testing dependencies and
+`npm test` to run the test script to make sure your code passes requirements.
+
+## Instructions
+
+1. Fork and clone this repository.
+1. Check out a dev branch.
+1. Complete your work in the `lib/arena.js` and `lib/gladiator.js` files.
+1. You may check your work by running tests `npm test` or by loading the
+   `index.html` file in the browser and console.logging your work.
+1. Turn in your submission via a pull request on the original repository.
+
+Unless otherwise stated, assignments are due by 10 am ET the next class day.
+
+## Requirements
+
+- Your `arena.js` and `gladiator.js` files must run without errors.
+- There are 12 tests. At least 9 of your tests (75%) must pass in order for the
+  assignment to be considered complete.
 
 ## Part 1: The Gladiator
 
@@ -23,6 +45,8 @@ console.log(max.weapon); // "Trident"
 ```
 
 ### Bonus
+
+> Not required to pass tests!
 
 Make it so that you cannot assign a Gladiator an invalid weapon (i.e., anything
 aside from Spear, Club or Trident. That means running code like
@@ -98,12 +122,10 @@ console.log(colosseum.gladiators); // => [max]
 
 ### Bonus
 
-- Add a method to remove gladiators from the arena by name
+> Not required to pass tests!
+
+- Add a new method to remove gladiators from the arena by name
 - Update your winning conditions so that if the gladiator named "Maximus" is in
   the fight, he wins.
 - Add a method to check to see if the crowd is entertained. The crowd is only
   entertained if Maximus is in the arena.
-- Before a losing gladiator is eliminated, the user should be prompted to put
-  their thumbs up or down. If user votes down, the losing gladiator is removed.
-  If the user votes up, the gladiator stays in the arena and his opponent is
-  removed. (Life isn't fair). Hint: look up the prompt() method
