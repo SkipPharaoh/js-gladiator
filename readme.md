@@ -27,7 +27,7 @@ Unless otherwise stated, assignments are due by 10 am ET the next class day.
 
 ## Requirements
 
-- Your `arena.js` and `gladiator.js` files must run without errors.
+- Your `arena.js` and `gladiator.js` files must run without syntax errors. If there are errors you can't solve, comment them out and leave a comment explaining what you think is wrong
 - There are 12 tests. At least 9 of your tests (75%) must pass in order for the
   assignment to be considered complete.
 
