@@ -3,6 +3,8 @@
 The Emperor has commissioned you to build a Gladiator Arena. You will do so
 using your knowledge of object-oriented Javascript and ES6 classes.
 
+![Gladiator Maximus in the arena](https://media.giphy.com/media/d7mMzaGDYkz4ZBziP6/giphy-downsized.gif?cid=ecf05e47j8gt5mdcd00dlk9n2q91ro9y7thlp10gl1125liy&rid=giphy-downsized.gif&ct=g)
+
 All of your Javascript code will be written in `lib/gladiator.js` and
 `lib/arena.js`. You can test your code by opening `index.html` in the browser
 and interacting with the console.
